@@ -13,8 +13,10 @@ namespace slides_switch_case
             string animal;
             
             Console.Write(" enter your animal   ");
+            animal = Console.ReadLine();
             
-            switch (animal)
+            
+            switch (animal.ToLower())
             {
                 case "dog":
                     Console.WriteLine("MAMMAL");
